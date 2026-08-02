@@ -1,23 +1,51 @@
 aid: trading-machines
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trading-machines.png
 name: Trading Machines
-description: Trading Machines is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Trading Machines LLC is a proprietary high-frequency options and equities trading firm,
+  founded around 2007 and headquartered in New York City, and registered as a broker-dealer with FINRA
+  (CRD 146274). The firm traded on its own account, at one point reportedly executing a meaningful share
+  of daily US options volume using low-latency, algorithmic and automated trading technology. As a
+  proprietary trading firm it operates for its own book rather than offering a public developer product,
+  and it surfaced in the API Evangelist network only as a Battery Ventures portfolio lead. Research
+  during enrichment found no public API, developer portal, OpenAPI/AsyncAPI specification, SDKs, or other
+  machine-readable developer surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/trading-machines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: proprietary-trading-firm-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Finance
+- Trading
+- Options
+- High Frequency Trading
+- Proprietary Trading
+- Broker-Dealer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
